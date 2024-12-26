@@ -1,0 +1,488 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    font-family: "Poppins", serif;
+    
+    
+}
+body{
+    background-color: #EFF2F1;
+}
+@font-face {
+    font-family: "No Bills extra bold";
+    src: url(./font/postnobillscolombo-extrabold.ttf);
+}
+
+header{
+    height: 629.07px;
+    width: 100%;
+    background-color: #35736E;
+}
+nav{
+    background-color: #35736E;
+}
+.logo{
+    
+    color: #FFD748;
+    float: left;
+    margin-left: 32.67px;
+}
+
+.logo h1{
+    font-family: "No Bills extra bold";
+    font-weight: 800;
+    line-height: 76.75px;
+    font-size: 51.33px;
+}
+.logo nav{
+    position: relative;
+
+}
+
+#active{
+    text-decoration:  underline 4.67px #FFD748;
+}
+.nav-links{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    
+    top: 26.13px;
+    left: 706.53px;
+    justify-content: space-between;
+    gap: 30px;
+}
+.nav-links a{
+    text-decoration: none !important;
+    color: white;
+}
+.nav-links h4{
+    margin-right: 21px ;
+    font-family: "Poppins", serif;
+    font-size: 18.67px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.icon{
+    float: right;
+    margin-right: 65.33px;    
+    margin-top: -26px;
+
+}
+
+.icon img{
+    width: 32.67px;
+    height: 32.67px;
+}
+.image{
+    position: relative;
+}
+
+.s1 p{
+    text-align: left;
+    font-family: "DM Serif Text", serif;
+    text-shadow: 0px 3.73px 3.73px #000000c4;
+    font-size: 51.33px;
+    font-weight: 400;
+    line-height: 70.38px;
+    position: absolute;
+    top: 221.2px;
+    left:92.4px;
+    color: white;
+}
+.dotimg{
+    position: absolute;
+    width: 242.67px;
+    height: 164.27px;
+    top: 197.87px;
+    left: 1088.27px;
+}
+
+.couchimg{
+    position:absolute;
+    width:756px;
+    height: 542.53px;
+    top: 126.93px;
+    left:561.87px;
+}
+
+.btn{
+    border-radius: 28px;
+    width: 149.33px;
+    height: 46.67px;
+    color: black;
+    position:absolute;
+    top: 429.33px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    width:276.27px;
+    height: 269.6px;
+    top: 83.43px;
+    border-radius: 18.67px;
+    background-color: #35736E1A;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 16.8px;
+    
+}
+.product{
+    float:right;
+    display: flex;
+    flex-direction: row;
+    gap: 45px;
+    margin: 20px 90px;
+}
+
+.contant{
+    
+    margin-bottom:50px ;
+}
+
+ .cardimg{
+    width: 176.4px;
+    height: 229.21px;
+ }
+
+ .explore{
+    width:276.27px;
+    transform: translate(-20px, 83px);
+ }
+ .explore button{
+    transform: translate(-104px, -99px);
+ }
+
+ .explore h5{
+    font-weight: 600;
+    font-size: 31.73px;
+    line-height: 47.6px;
+ }
+ #c1{
+    box-shadow:  0px 3.73px 3.73px #000000c4;;
+ }
+.dotimg2{
+    width: 505.87px;
+    height: 622.68px;
+    position: absolute;
+    right: 67px;
+    top: 31px;
+    border-radius: 9.33px;
+}
+.why{
+    width: 242.67px;
+    height: 154.56px;
+    right: 411px;
+    position: absolute;
+}
+
+.col-md{
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+    position: relative;
+}
+.col-md h5{
+    font-size: 13.07px;
+    font-weight: 600px ;
+}
+
+.circle{
+    position: absolute;
+    left: 25px;
+}
+
+ 
+.g2{
+    position: absolute;
+    width: 395.73px;
+    height: 483.88px;
+    border-radius: 9.33px;
+    top: 69px;
+    left: 201px;;
+ }
+
+.g1{
+    position: absolute;
+    width: 174.53px;
+    height: 164.22px;
+    border-radius: 9.33px;
+    left: 613.4px;
+    top: 69px;
+}
+.g3{
+    position: absolute;
+    width: 271.6px;
+    height: 306.49px;
+    border-radius: 9.33px;
+    top:267px;
+    left:547.87px;
+    transform: translateZ(30px);
+}
+.dot2{
+    position: absolute;
+    width: 242.67px;
+    height: 154.56px;
+    left:88.67px;
+}
+.padd{
+    padding: 20PX;
+}
+
+.card{
+    width: 400px;
+    height: 100px;
+    border-radius: 9.33px;
+    text-align: left;
+    position: relative;
+    border: none;
+    font-size: 13.07px;
+    background-color: #EFF2F1;
+}
+.card-body{
+    padding-left:1px;
+    
+}
+.card-body p{
+    margin-bottom: 1.1px;
+}
+.im{
+    width:100px ;
+    height: 100px;
+    position: relative;
+    top: -25px;
+    
+}
+.cover{
+    background-color: #35736E1A;
+    width: 100px;
+    border-radius: 9.33px;
+}
+
+.col-md-1{
+    padding: 73px;
+}
+
+.col-md-1 img{
+    position: absolute;
+    top: 97px;
+    right: 40px;
+}
+
+#n1{
+    right: 61px;
+    top: 112px;
+}
+.user-img
+{
+    background-image: url(../Image/user.jpg);
+    width:71.87px;
+    height:71.87px;
+    background-position:top;
+    background-size: cover;
+    border-radius: 100px;
+}
+.CEO{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.CEO h4{
+    margin-top: 10px;
+    font-size:16.8px ;
+    font-weight: 500;
+    line-height: 25.2px;
+}
+
+.CEO p{
+    font-size: 12.13px;
+    font-weight: 400;
+    line-height: 29.87px;
+}
+
+
+.rec{
+    position: absolute;
+    width: 219px;
+    height: 48px;
+    left: 145.6px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 31.7333px;
+    line-height: 48px;
+}
+
+
+.view{
+    height: 39px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14.9333px;
+    line-height: 38px;
+    text-decoration:  underline 4.67px #FFD748;
+    float: right;
+    margin-right: 150px;
+}
+
+.gap-col{
+    column-gap: 55px;
+}
+
+.p1{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16.8px;
+    line-height: 20px;
+}
+
+.p2{
+    font-weight: 400;
+    font-size: 13.0667px;
+    line-height: 16px;
+}
+.post{
+    margin-bottom: 250px;
+
+}
+footer {
+    background-color: white !important; /* Enforce white background */
+    min-height: 100px; /* Ensure visibility */
+    margin: 0 auto; /* Center horizontally if needed */
+    padding: 100px 120px; /* Add spacing */
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+}
+.flex-item{
+    width: 70%;
+}
+
+.mail{
+
+    font-size: 16.8px;
+    font-weight: 600;
+    line-height: 20.33px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.mail::before{
+    background-color: white !important;
+    content: url(../ICON/Vector\ \(1\).png);
+    padding-right: 20px;
+    position: relative;
+    top: 4px;
+
+}
+input{
+    width: 254.53px;
+    height: 42.74px;
+    border-radius: 9.33px;
+    margin-right: 17px;
+}
+.send-btn{
+    display: inline-block;
+    width: 46.67px;
+    height: 44.52px;
+    background-color: #35736E;
+    border-radius: 9.33px ;
+    position: relative;
+    top: 15px;
+}
+
+.send-btn img{
+    position: absolute;
+    top: 11px;
+    left: 8px;
+}
+.flex-item{
+    position: relative;
+}
+.sofa{
+    width: 427.47px;
+    height: 369.82px;
+    position: absolute;
+    top: -231px;
+    left: 203px;
+}
+
+.logo2{
+    color: #35736E;
+    margin: 0 auto;
+    font-family: "No Bills extra bold";
+    font-weight: 800;
+    line-height: 76.75px;
+    font-size: 40.33px;
+}
+
+.p-f{
+    color: #6A6A6A;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 22.4px;
+    text-align: left;
+    word-spacing: 1px;
+}
+.a{
+    text-decoration: none !important;
+    color: #6A6A6A;
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
+
+.d-flex{
+    row-gap: 4px;
+}
+
+footer .row{
+    column-gap: 22px;
+}
+.cir{
+    background-color: #d9d9d9;
+    display: inline-block;
+    border-radius: 100%;
+    width: 38px;
+    height:38px;
+    position: relative;
+    left: -35px;
+    top: 28px;
+}
+.cir i{
+    position: absolute;
+    top:10px;
+    right: 14px;
+    
+}
+
+hr{
+    background-color: #d9d9d9;
+    margin-top: 55px !important;
+
+    display: block;
+}
+
+.m{
+    margin:5px;
+}
+
+.r2{
+    column-gap: 0px !important;
+}
+
+.copy{
+    margin-top: 100px;
+    color: #6A6A6A;
+    font-size: 13.07px;
+    font-weight: 400;
+    line-height: 22.4px;
+}
